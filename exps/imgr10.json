@@ -1,0 +1,32 @@
+{
+    "dataset": "ImageNet_R",
+    "data_path": "./datasets/imagenet-r",
+    "shuffle": true,
+    "init_cls": 20,
+    "increment": 20,
+    "model_name": "M2LE",
+    "embd_dim": 768,
+    "total_sessions": 10,
+    "seed": [
+        1993,
+        1996,
+        1997
+    ],
+    "batch_size": 48,
+    "init_epoch": 20,
+    "optim": "sgd",
+    "init_lr": 0.02,
+    "init_weight_decay": 0.0,
+    "epochs": 20,
+    "lrate": 0.02,
+    "weight_decay": 0.0,
+    "rank": 32,
+    "scale": 20.0,
+    "margin": 0.1,
+    "num_workers": 8,
+    "use_merge": true,
+    "alpha": 5,
+    "use_meta": true,
+    "rho": 0.5,
+    "beta": 0.8
+}
