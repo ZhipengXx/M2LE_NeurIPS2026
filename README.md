@@ -50,18 +50,8 @@ Core code: [`methods/m2le.py`](methods/m2le.py) implements training and HIM merg
 
 ## Citation
 
-```bibtex
-@inproceedings{gu2026modulating,
-  title     = {Modulating Merging Strengths via Joint Loss Estimation for LoRA-based Continual Learning},
-  author    = {Kun Gu and De Cheng and Zhipeng Xu and Lingfeng He and Di Xu and Nannan Wang},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026},
-  url       = {https://openreview.net/forum?id=zRXaWRbyGH}
-}
-```
+
 
 ## Acknowledgments
 
-Our implementation builds on [MACIL](https://github.com/fwu11/MACIL), [PILOT](https://github.com/LAMDA-CL/LAMDA-PILOT), and [timm](https://github.com/huggingface/pytorch-image-models). We thank the authors for their code. See [third-party notices](THIRD_PARTY_NOTICES.md) for attribution and the included licenses.
 
-For questions, please open a GitHub issue.
